@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Environment
+.env
+.env.local
+*.env
+venv/
+venv.bak/
+ENV/
+env/
+.venv/
+.Python
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Migrations (optional — usually you DO commit these)
+# Uncomment below if you want to ignore migrations (not usually recommended)
+# */migrations/
+# !*/migrations/__init__.py
+
+# Static and media files (optional if dynamically generated)
+staticfiles/
+media/
+
+# Others
+*.bak
+*.swp
+*.tmp
